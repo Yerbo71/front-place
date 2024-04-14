@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# React + Typescript + Spring 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Marketplace
 
-Currently, two official plugins are available:
+This project is a marketplace application built using React for the frontend and Spring Boot for the backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend Setup
 
-## Expanding the ESLint configuration
+1. Clone the backend repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    ```
+    https://github.com/bolatdias/market-place
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Navigate into the backend directory:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+    ```
+    cd backend
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Run the backend:
+
+    ```
+    ./mvnw spring-boot:run
+    ```
+
+## Frontend Setup
+
+1. Clone the frontend repository:
+
+    ```
+    git clone
+    ```
+
+2. Navigate into the frontend directory:
+
+    ```
+    cd [frontend directory]
+    ```
+
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```
+    npm run dev
+    ```
+
+
